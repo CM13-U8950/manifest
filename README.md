@@ -12,7 +12,7 @@ Build Instructions
 
 2. Add my local manifest
 
-        curl --create-dirs -L -o .repo/local_manifests/cm_huawei.xml -O -L https://raw.github.com/U8950-Projects/manifest/cm-13.0/cm_huawei.xml
+        curl --create-dirs -L -o .repo/local_manifests/cm_huawei.xml -O -L https://raw.github.com/CM13-U8950/manifest/cm-13.0/cm_huawei.xml
 
 3. Then sync up the repositories
  
