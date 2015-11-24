@@ -2,15 +2,12 @@
    <manifest>
 
 	<!-- Device Folders, Kernel & Proprietary BLOBS -->
-	<project path="vendor/huawei" name="U8950-Projects/vendor_huawei" remote="github" revision="master"/>
+	<project path="vendor/huawei" name="SlimM-U8950/vendor_huawei" remote="github" revision="mm6.0"/>
 	<project path="kernel/huawei/huawei-kernel-3.4" name="SlimLP-Y300/chil360-kernel" remote="github" revision="mm6.0"/>
-	<project path="device/huawei/msm7x27a-common" name="CM13-U8950/android_device_huawei_msm7x27a-common" remote="github" revision="cm-13.0"/>
-	<project path="device/huawei/u8950" name="CM13-U8950/android_device_huawei_u8950" remote="github" revision="cm-13.0"/>
+	<project path="device/huawei/msm7x27a-common" name="SlimM-U8950/android_device_huawei_msm7x27a-common" remote="github" revision="mm6.0"/>
+	<project path="device/huawei/u8950" name="SlimM-U8950/android_device_huawei_u8950" remote="github" revision="mm6.0"/>
 	<!--project path="prebuilts/chromium" name="CM13-U8950/prebuilts_chromium" remote="github" revision="cm-13.0"/-->
 	
-	<!-- Linaro toolchain -->
-	<project path="prebuilt/linux-x86/toolchain" name="U8950-Projects/linaro-toolchains" remote="github" revision="master"/>
-
 	<!-- GPS -->
 	<remove-project name="CyanogenMod/android_hardware_qcom_gps" />
 	<project path="hardware/qcom/gps" name="CM13-Y300/android_hardware_qcom_gps" remote="github" revision="cm-13.0" />

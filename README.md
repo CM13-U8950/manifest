@@ -1,18 +1,18 @@
-cm13.0_manifest
+slim6.0_manifest
 ================
 
-Local Manifest to build CM13 for the Huawei U8950 (Honor Pro)
+Local Manifest to build Slim6.0 for the Huawei U8950 (Honor Pro)
 
 Build Instructions
 -----------------------------------------------------------------------------
 
-1. Initialize repo using the CM13 manifest
+1. Initialize repo using the Slim6.0 manifest
     
-        repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+        repo init -u git://github.com/SlimRoms/platform_manifest.git -b mm6.0
 
 2. Add my local manifest
 
-        curl --create-dirs -L -o .repo/local_manifests/cm_huawei.xml -O -L https://raw.github.com/CM13-U8950/manifest/cm-13.0/cm_huawei.xml
+        curl --create-dirs -L -o .repo/local_manifests/slim_huawei.xml -O -L https://raw.github.com/SlimM-U8950/manifest/mm6.0/slim_huawei.xml
 
 3. Then sync up the repositories
  
