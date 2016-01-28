@@ -4,9 +4,9 @@
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="CM13-U8950/vendor_huawei" remote="github" revision="cm-13.0"/>
-     <project path="kernel/huawei/huawei-kernel-3.4" name="SlimLP-Y300/chil360-kernel" remote="github" revision="mm6.0"/>
+     <project path="kernel/huawei/huawei-kernel-3.4" name="CM13-U8950/chil360-kernel" remote="github" revision="mm6.0"/>
      <project path="device/huawei/msm7x27a-common" name="CM13-U8950/android_device_huawei_msm7x27a-common" remote="github" revision="cm-13.0"/>
-     <project path="device/huawei/u8950" name="CM13-U8950/android_device_huawei_u8950" remote="github" revision="cm-13.0"/>
+     <project path="device/huawei/u8950" name="CM13-U8950/android_device_huawei_u8950" remote="github" revision="master"/>
      
      <!-- GPS -->
      <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
