@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
-     <remote name="bucket" fetch="https://bitbucket.org" revision="master" />
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="CM13-U8950/vendor_huawei" remote="github" revision="cm-13.0"/>
@@ -19,7 +18,7 @@
      <!-- Stlport -->
      <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
 
-	 <!-- UBERTC 4.9 kernel toolchain -->
+	 <!-- UBERTC toolchains -->
      <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
      <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"groups="pdk,linux,arm"  name="ksrt12/arm-linux-androideabi-4.9-cortex-a5
 " remote="github" revision="master"/>
