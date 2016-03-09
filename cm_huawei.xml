@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
+    <remote name="bucket" fetch="https://bitbucket.org" revision="master" />
 
     <!-- Device Folders, Kernel & Proprietary BLOBS -->
     <project path="vendor/huawei" name="CM13-U8950/vendor_huawei" remote="github" revision="cm-13.0"/>
@@ -8,20 +9,19 @@
     <project path="device/huawei/u8950" name="CM13-U8950/android_device_huawei_u8950" remote="github" revision="master"/>
      
     <!-- GPS -->
-    <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
-    <project path="hardware/qcom/gps" name="CM13-Y300/android_hardware_qcom_gps" remote="github" revision="cm-13.0" />
+     <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+     <project path="hardware/qcom/gps" name="CM13-Y300/android_hardware_qcom_gps" remote="github" revision="cm-13.0" />
 
-    <!-- QCOM Hardware -->
-    <project path="hardware/qcom/display-caf/msm7x27a" name="CM13-Y300/android_hardware_qcom_display-caf" remote="github" revision="cm-13.0" />
-    <project path="hardware/qcom/media-caf/msm7x27a" name="SlimLP-Y300/hardware_qcom_media" remote="github" revision="lp5.1" />
+     <!-- QCOM Hardware -->
+     <project path="hardware/qcom/display-caf/msm7x27a" name="CM13-Y300/android_hardware_qcom_display-caf" remote="github" revision="cm-13.0" />
+     <project path="hardware/qcom/media-caf/msm7x27a" name="SlimLP-Y300/hardware_qcom_media" remote="github" revision="lp5.1" />
 
-    <!-- Stlport -->
-    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
+     <!-- Stlport -->
+     <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
 
-    <!-- UBERTC toolchains -->
-    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" name="ksrt12/arm-eabi-5.3-cortex-a5" remote="github" revision="master"/>
-
-    <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+	 <!-- UBERTC 4.9 kernel toolchain -->
+     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
+     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bucket"/>
+     <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
      
 </manifest>
