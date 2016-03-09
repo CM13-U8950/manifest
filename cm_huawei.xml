@@ -20,8 +20,12 @@
      <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
 
 	 <!-- UBERTC 4.9 kernel toolchain -->
-     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
-     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bucket"/>
+     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
+     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"groups="pdk,linux,arm"  name="ksrt12/arm-linux-androideabi-4.9-cortex-a5
+" remote="github" revision="master"/>
+     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
+     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" name="ksrt12/arm-eabi-5.3-cortex-a5" remote="github" revision="master"/>
+
      <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
      
 </manifest>
