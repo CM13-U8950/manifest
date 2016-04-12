@@ -22,6 +22,7 @@
 	 <!-- UBERTC 4.9 kernel toolchain -->
      <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
      <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bucket"/>
-     <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+     <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+     <project path="packages/apps/CMUpdater" name="CM13-U8950/android_packages_apps_CMUpdater" revision="cm-13.0" />
      
 </manifest>
