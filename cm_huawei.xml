@@ -23,6 +23,6 @@
      <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
      <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9" groups="pdk,linux,arm" remote="bucket"/>
      <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
-     <project path="packages/apps/Camera2" name="CM13-U8950/packages_apps_Camera2" groups="mm6.0" />
+     <project path="packages/apps/Camera2" name="CM13-U8950/packages_apps_Camera2" revision="mm6.0" />
      
 </manifest>
