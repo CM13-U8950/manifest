@@ -13,7 +13,7 @@
      <project path="hardware/qcom/gps" name="CM13-U8950/android_hardware_qcom_gps" remote="github" revision="cm-13.0" />
 
      <!-- QCOM Hardware -->
-     <project path="hardware/qcom/display-caf/msm7x27a" name="CM13-U8950/android_hardware_qcom_display-caf_msm7x27a" remote="github" revision="cm-13.0" />
+     <project path="hardware/qcom/display-caf/msm7x27a" name="CM13-U8950/android_hardware_qcom_display-caf" remote="github" revision="cm-13.0" />
      <project path="hardware/qcom/media-caf/msm7x27a" name="CM13-U8950/hardware_qcom_media" remote="github" revision="lp5.1" />
 
      <!-- Stlport -->
